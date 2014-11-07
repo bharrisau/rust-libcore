@@ -1,0 +1,9 @@
+[package]
+name = "libcore"
+version = "0.13.0-8ed288edb"
+authors = ["Ben Harris <mail@bharr.is>"]
+build = "./build.sh"
+
+[lib]
+name = "core"
+path = "rust/src/libcore/lib.rs"
